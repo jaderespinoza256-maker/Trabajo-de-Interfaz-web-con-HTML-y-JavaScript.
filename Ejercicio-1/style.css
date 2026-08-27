@@ -1,0 +1,18 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#081008;font-family:Arial;display:flex;justify-content:center;align-items:center;min-height:100vh}
+.caja{background:#121f12;border:2px solid #34c759;border-radius:16px;padding:35px;width:520px;box-shadow:0 0 40px rgba(52,199,89,.15)}
+.titulo{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:32px}
+.icono{width:36px;height:36px;border:2px solid #34c759;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#34c759;font-size:18px}
+h1{color:#fff;font-size:20px;letter-spacing:1.5px;text-transform:uppercase}
+.campo{margin-bottom:18px}
+.etiqueta{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.et{color:#34c759;width:18px;text-align:center}
+label{color:#90ee90;font-size:13px;text-transform:uppercase;letter-spacing:1px}
+input{width:100%;padding:12px 15px;background:#e8f5e9;border:1px solid #2e7d32;border-radius:8px;color:#1b5e20;font-size:15px}
+#correo,#ciudad{background:#1a2f1a;color:#c8e6c9;border-color:#34c759}
+input:focus{outline:none;border-color:#34c759;box-shadow:0 0 8px rgba(52,199,89,.25)}
+button{width:100%;padding:13px;margin-top:8px;background:linear-gradient(90deg,#2e7d32,#34c759);color:#fff;border:none;border-radius:8px;font-size:15px;font-weight:bold;text-transform:uppercase;letter-spacing:2px;cursor:pointer}
+button:hover{background:linear-gradient(90deg,#34c759,#4cd964)}
+#res{margin-top:22px;padding:16px;background:#142814;border:1px solid #34c759;border-radius:10px;color:#c8e6c9;display:flex;gap:12px;line-height:1.6}
+.volver{margin-top:18px;background:transparent;color:#90ee90;border:1px solid #34c759;font-size:14px;padding:10px;text-transform:none;letter-spacing:1px}
+.volver:hover{background:#1a2f1a}
